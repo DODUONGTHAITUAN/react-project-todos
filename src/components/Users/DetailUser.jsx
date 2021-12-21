@@ -11,7 +11,6 @@ class DetailUser extends React.Component {
         this.props.history.push("/users");
     };
     componentDidMount = async () => {
-        console.log(this.props);
         if (this.props.match.params?.id) {
             try {
                 const id = this.props.match.params.id;

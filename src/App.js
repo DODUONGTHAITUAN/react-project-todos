@@ -12,6 +12,7 @@ import Users from "./components/Users/Users";
 import DetailUser from "./components/Users/DetailUser";
 
 const App = () => {
+    console.log("App render");
     return (
         <Router>
             <div className="App">
@@ -25,7 +26,6 @@ const App = () => {
                         <Route path="/todos">
                             <ListTodo />
                         </Route>
-
                         <Route path="/about">
                             <About />
                         </Route>
