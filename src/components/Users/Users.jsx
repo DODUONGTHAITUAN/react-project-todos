@@ -21,6 +21,7 @@ class Users extends React.Component {
     };
     render = () => {
         const { users } = this.state;
+        console.log(this.state);
         return (
             <div className="users">
                 {users &&
