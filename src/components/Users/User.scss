@@ -1,0 +1,13 @@
+.users {
+    text-align: start;
+    .user-item {
+        border-bottom: 1px solid;
+        margin-bottom: 5px;
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        & > span {
+            margin-right: 10px;
+        }
+    }
+}
